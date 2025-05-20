@@ -1,0 +1,68 @@
+version: "3.1"
+
+rules:
+
+- rule: handle fallback
+  steps:
+  - intent: nlu_fallback
+  - action: utter_fallback
+
+- rule: pengguna memberikan sapaan awal
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: pengguna mengakhiri percakapan
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: pengguna bertanya pertanyaan umum komunitas provoks
+  steps:
+  - intent: tanya_umum_provoks
+  - action: utter_umum_provoks
+
+- rule: pengguna bertanya tujuan Provoks
+  steps:
+  - intent: tanya_tujuan_provoks
+  - action: utter_tujuan_provoks
+
+- rule: pengguna bertanya manfaat komunitas Provoks
+  steps:
+  - intent: tanya_manfaat_provoks
+  - action: utter_manfaat_provoks
+
+- rule: pengguna bertanya program komunitas Provoks
+  steps:
+  - intent: tanya_program_provoks
+  - action: utter_program_provoks
+
+- rule: pengguna bertanya cara join komunitas Provoks
+  steps:
+  - intent: tanya_join_provoks
+  - action: utter_join_provoks
+
+- rule: pengguna bertanya tentang path komunitas Provoks
+  steps:
+  - intent: tanya_path_provoks
+  - action: utter_path_provoks
+
+- rule: pengguna bertanya tentang kontak komunitas Provoks
+  steps:
+  - intent: tanya_contact_provoks
+  - action: utter_contact_provoks
+
+- rule: pengguna bertanya tentang dosen pendamping komunitas Provoks
+  steps:
+  - intent: tanya_dosen_provoks
+  - action: utter_dosen_provoks
+
+- rule: pengguna bertanya lokasi komunitas Provoks
+  steps:
+  - intent: tanya_lokasi_provoks
+  - action: utter_lokasi_provoks
+
+- rule: pengguna bertanya pengurus komunitas Provoks
+  steps:
+  - intent: tanya_pengurus_provoks
+  - action: utter_pengurus_provoks

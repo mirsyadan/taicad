@@ -1,0 +1,38 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"tanya_dosen_provoks\"}}]": "utter_dosen_provoks",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"tanya_dosen_provoks\"}}, {\"prev_action\": {\"action_name\": \"utter_dosen_provoks\"}, \"user\": {\"intent\": \"tanya_dosen_provoks\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"tanya_pengurus_provoks\"}}]": "utter_pengurus_provoks",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"tanya_pengurus_provoks\"}}, {\"prev_action\": {\"action_name\": \"utter_pengurus_provoks\"}, \"user\": {\"intent\": \"tanya_pengurus_provoks\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet\"}}]": "utter_greet",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet\"}}, {\"prev_action\": {\"action_name\": \"utter_greet\"}, \"user\": {\"intent\": \"greet\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"tanya_join_provoks\"}}]": "utter_join_provoks",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"tanya_join_provoks\"}}, {\"prev_action\": {\"action_name\": \"utter_join_provoks\"}, \"user\": {\"intent\": \"tanya_join_provoks\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"tanya_program_provoks\"}}]": "utter_program_provoks",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"tanya_program_provoks\"}}, {\"prev_action\": {\"action_name\": \"utter_program_provoks\"}, \"user\": {\"intent\": \"tanya_program_provoks\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"tanya_umum_provoks\"}}]": "utter_umum_provoks",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"tanya_umum_provoks\"}}, {\"prev_action\": {\"action_name\": \"utter_umum_provoks\"}, \"user\": {\"intent\": \"tanya_umum_provoks\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"tanya_path_provoks\"}}]": "utter_path_provoks",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"tanya_path_provoks\"}}, {\"prev_action\": {\"action_name\": \"utter_path_provoks\"}, \"user\": {\"intent\": \"tanya_path_provoks\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"tanya_tujuan_provoks\"}}]": "utter_tujuan_provoks",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"tanya_tujuan_provoks\"}}, {\"prev_action\": {\"action_name\": \"utter_tujuan_provoks\"}, \"user\": {\"intent\": \"tanya_tujuan_provoks\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"tanya_manfaat_provoks\"}}]": "utter_manfaat_provoks",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"tanya_manfaat_provoks\"}}, {\"prev_action\": {\"action_name\": \"utter_manfaat_provoks\"}, \"user\": {\"intent\": \"tanya_manfaat_provoks\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"tanya_lokasi_provoks\"}}]": "utter_lokasi_provoks",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"tanya_lokasi_provoks\"}}, {\"prev_action\": {\"action_name\": \"utter_lokasi_provoks\"}, \"user\": {\"intent\": \"tanya_lokasi_provoks\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"goodbye\"}}]": "utter_goodbye",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"goodbye\"}}, {\"prev_action\": {\"action_name\": \"utter_goodbye\"}, \"user\": {\"intent\": \"goodbye\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"tanya_contact_provoks\"}}]": "utter_contact_provoks",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"tanya_contact_provoks\"}}, {\"prev_action\": {\"action_name\": \"utter_contact_provoks\"}, \"user\": {\"intent\": \"tanya_contact_provoks\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "predicting default action with intent session_start",
+      "predicting default action with intent restart",
+      "predicting default action with intent back"
+    ]
+  }
+}

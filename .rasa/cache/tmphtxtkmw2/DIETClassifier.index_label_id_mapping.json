@@ -1,0 +1,19 @@
+{
+  "0": "affirm",
+  "1": "bot_challenge",
+  "2": "deny",
+  "3": "goodbye",
+  "4": "greet",
+  "5": "mood_great",
+  "6": "mood_unhappy",
+  "7": "tanya_contact_provoks",
+  "8": "tanya_dosen_provoks",
+  "9": "tanya_join_provoks",
+  "10": "tanya_lokasi_provoks",
+  "11": "tanya_manfaat_provoks",
+  "12": "tanya_path_provoks",
+  "13": "tanya_pengurus_provoks",
+  "14": "tanya_program_provoks",
+  "15": "tanya_tujuan_provoks",
+  "16": "tanya_umum_provoks"
+}

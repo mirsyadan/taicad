@@ -1,0 +1,129 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - Hi Provbot
+    - Hai Provbot
+    - Hei Provbot
+    - Hey Provbot
+    - Halo Provbot
+    - Hallo Provbot
+    - Hi
+    - Hai
+    - Hei
+    - Hey
+    - Halo
+    - Hallo
+
+- intent: goodbye
+  examples: |
+    - Tidak
+    - Cukup
+    - Terimakasih informasinya
+    - Bye
+    - Thanks
+    - Makasih
+    - See you
+    - Itu saja
+    - Segitu saja
+    - Stop
+    - Sudah cukup
+    - Terima kasih
+    - Sampai jumpa
+    - Sampai ketemu
+    - Sampai bertemu
+    - Nanti ketemu lagi
+    - Bye bye
+    - Tidak ada
+    - Good bye
+
+- intent: affirm
+  examples: |
+    - Baik
+    - Oke
+    - Ok
+    - Benar
+    - Tepat
+    - Bagus
+    - Mantap
+    - Iya
+    - Setuju
+
+- intent: deny
+  examples: |
+    - Bukan
+    - Salah
+    - Keliru
+
+- intent: tanya_umum_provoks
+  examples: | 
+    - Apa itu komunitas Provoks?
+    - Bisa jelaskan tentang komunitas Provoks?
+    - Komunitas Provoks itu apa?
+
+- intent: tanya_tujuan_provoks
+  examples: | 
+    - Apa tujuan utama komunitas Provoks?
+    - Untuk apa komunitas Provoks dibentuk?
+    - Komunitas Provoks berdiri untuk tujuan apa?
+    - Apa yang ingin dicapai oleh Komunitas Provoks?
+    - Apa visi misi atau komunitas Provoks?
+
+- intent: tanya_manfaat_provoks
+  examples: | 
+    - Apa manfaat komunitas Provoks?
+    - Apa keuntungan mengikuti komunitas Provoks?
+    - Apa saja yang bisa didapatkan dari komunitas Provoks?
+    - Apa yang bikin komunitas Provoks bermanfaat?
+    - Apa untungnya bergabung menjadi anggota komunitas Provoks?
+
+- intent: tanya_program_provoks
+  examples: | 
+    - Apa saja program yang ada di komunitas Provoks?
+    - Apa saja program kegiatan komunitas Provoks?
+    - Program apa saja yang pernah diadakan oleh komunitas Provoks?
+    - Apakah ada event khusus di komunitas Provoks?
+    - Program kegiatan apa saja yang bisa diikuti di komunitas Provoks?
+
+- intent: tanya_join_provoks
+  examples: |
+    - Bagaimana cara bergabung dengan komunitas Provoks?
+    - Apa syarat untuk bergabung dengan komunitas Provoks?
+    - Daftar komunitas Provoks lewat mana?
+    - Kapan komunitas Provoks menerima anggota baru?
+    - Gimana langkah-langkah menjadi anggota komunitas Provoks?
+    - Apakah ada form pendaftaran komunitas Provoks?
+
+- intent: tanya_path_provoks
+  examples: |
+    - Ada apa saja bidang atau path di komunitas Provoks yang tersedia?
+    - Bidang atau path apa saja yang bisa dipelajari dan dipilih di komunitas Provoks?
+    - Gabung komunitas Provoks bisa fokus ke bidang apa saja?
+
+- intent: tanya_contact_provoks
+  examples: |
+    - Gimana cara menghubungi komunitas Provoks?
+    - Apakah Provoks punya akun media sosial?
+    - Bagaimana mendapatkan informasi seputar komunitas Provoks?
+
+- intent: tanya_dosen_provoks
+  examples: |
+    - Siapa saja dosen pendamping komunitas Provoks?
+    - Apakah komunitas Provoks memiliki dosen pendamping?
+    - Siapa saja dosen yang terlibat di dalam komunitas Provoks?
+
+- intent: tanya_lokasi_provoks
+  examples: |
+    - Dimana lokasi komunitas Provoks?
+    - Dimana biasanya tempat komunitas Provoks berkumpul?
+    - Kalau ingin berkunjung ke komunitas Provoks dimana?
+    - Dimana letak komunitas Provoks?
+  
+- intent: tanya_pengurus_provoks
+  examples: |
+    - Siapa saja pengurus komunitas Provoks?
+    - Siapa yang termasuk dalam pengurus komunitas Provoks?
+    - Siapa yang bertanggung jawab di komunitas Provoks?
+    - Pengurus komunitas Provoks yang aktif saat ini siapa?
+    - Siapa pengurus inti dan divisi didalam komunitas Provoks?

@@ -1,0 +1,150 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - nlu_fallback
+  - tanya_umum_provoks
+  - tanya_tujuan_provoks
+  - tanya_manfaat_provoks
+  - tanya_program_provoks
+  - tanya_join_provoks
+  - tanya_path_provoks
+  - tanya_contact_provoks
+  - tanya_dosen_provoks
+  - tanya_lokasi_provoks
+  - tanya_pengurus_provoks
+
+responses:
+  utter_fallback:
+  - text: "Maaf Provbot kurang memahami pertanyaanmu, bisakah kamu memberikan pertanyaan dengan lebih jelas dan detail?"
+
+  utter_greet:
+  - text: "Halo Rekan Provoks! Selamat datang di komunitas programmer Fakultas Vokasi. Saya Provbot, asisten virtual yang siap membantu. Ada yang bisa saya bantu hari ini?"
+  - text: "Hi Rekan Provoks! Senang bertemu denganmu di layanan informasi komunitas. Saya Provbot, siap menjawab pertanyaanmu tentang komunitas Provoks. Ada yang ingin kamu ketahui?"
+  - text: "Selamat datang, Rekan Provoks! Saya Provbot, chatbot resmi komunitas yang siap membantu. Apakah ada informasi yang sedang kamu cari tentang komunitas Provoks?"
+  - text: "Halo! Selamat datang di komunitas Provoks! Saya Provbot, teman virtualmu dalam menjelajahi informasi komunitas ini. Apa yang bisa saya bantu?"
+  - text: "Hi! Selamat datang di komunitas Provoks. Saya Provbot, asisten cerdas yang siap membantu menjawab pertanyaanmu. Apa yang ingin kamu ketahui hari ini?"
+  - text: "Halo Rekan Provoks! Saya adalah Provbot, Chatbot informasi seputar komunitas Provoks. Apakah ada yang bisa saya bantu?"
+  - text: "Hi Rekan Provoks! Selamat datang di layanan informasi Provoks, Saya Provbot siap membantu Anda. Apakah ada yang ingin anda ketahui mengenai komunitas Provoks?"
+  - text: "Selamat datang Rekan Provoks! Saya Provbot siap membantu Anda mencari informasi tentang seputar komunitas Provoks. Apakah ada yang bisa Provbot bantu?"
+
+  utter_goodbye:
+  - text: "Terima kasih telah bertanya seputar komunitas Provoks! Provbot senang bisa membantu. Jika ada pertanyaan lain, jangan ragu untuk kembali. Sampai jumpa dan tetap semangat berkarya!"
+  - text: "Sampai jumpa! Jangan sungkan untuk bertanya lagi jika ingin tahu lebih banyak tentang komunitas Provoks. Provbot selalu siap membantu!"
+  - text: "Terima kasih sudah berbincang dengan Provbot! Semoga informasi ini bermanfaat. Tetap semangat dalam berkarya dan berkembang bersama komunitas Provoks. Sampai jumpa!"
+  - text: "Senang bisa membantu! Jika ada hal lain yang ingin ditanyakan tentang komunitas Provoks, Provbot selalu ada untukmu. Sampai bertemu lagi!"
+  - text: "Terima kasih telah berkunjung! Provbot akan selalu siap membantu kapan pun dibutuhkan. Sampai jumpa dan tetap semangat belajar serta berbagi!"
+  - text: “Terima kasih telah bertanya seputar komunitas Provoks. Dengan senang hati Provbot akan membantu Anda di lain kesempatan. Sampai jumpa!”  
+  - text: “Sampai jumpa! Jangan ragu untuk bertanya lagi jika ada yang ingin diketahui tentang seputar komunitas Provoks.”  
+  - text: “Terima kasih sudah bertanya kepada Provbot, semoga informasi yang diberikan bermanfaat. Sampai bertemu lagi!!”  
+  - text: “Terima kasih telah berkunjung. Provbot akan selalu siap membantu Anda di lain waktu. Sampai jumpa!”
+
+  utter_umum_provoks:
+  - text: "Komunitas para programmer fakultas vokasi program studi teknologi informasi. Komunitas ini hadir sebagai wadah bagi para mahasiswa untuk saling belajar, berbagi pengetahuan, dan mengembangkan proyek bersama." 
+  - text: "Provoks singkatan dari komunitas programmer fakultas vokasi program studi teknologi informasi universitas brawijaya. Sebuah komunitas mahasiswa yang terbuka untuk siapa saja yang ingin belajar teknologi dan memperluas jaringan di bidang IT."
+
+  utter_tujuan_provoks:
+  - text: "Tujuan utama provoks adalah meningkatkan kualitas sumber daya manusia (SDM) mahasiswa program studi teknologi informasi di fakultas vokasi universitas brawijaya, sehingga kedepannya dapat menghasilkan lulusan yang siap bersaing di dunia kerja yang semakin kompetitif."
+  - text: "Tujuan lain komunitas provoks yaitu membuat startup di bidang teknologi, anggota dapat bekerja di perusahaan multinasional, anggota dapat melanjutkan studi S1 dan S2."
+  - text: "Komunitas provoks ingin menjadi delegasi yang banyak membawa kejuaraan untuk fakultas vokasi universitas brawijaya seperti menjadi juara umum di setiap perlombaan."
+
+  utter_manfaat_provoks:
+  - text: "Komunitas ini hadir sebagai wadah bagi para mahasiswa untuk saling belajar, berbagai pengetahuan, mengembangkan proyek bersama, mencari anggota dan tim untuk mengikuti lomba."
+  - text: "Membantu anggota menjuarai perlombaan seperti OLIVIA, Gemastik, dan perlombaan lainya dengan mendapatkan mentoring dari dosen dan mahasiswa berbakat, menjadikan mahasiswa lebih aktif dan kompeten di bidang IT, bisa mengikuti pameran hasil akhir project yang diadakan di akhir periode sebagai apresiasi untuk anggota komunitas Provoks."
+  - text: "Doing experiments, experiencing projects, learning, collaboration, winning contests, and boosting skill."
+
+  utter_program_provoks:
+  - text: "Penjaringan anggota melalui asesmen untuk seleksi persiapan perlombaan dan mentoring, bedah code pada weekly project, sharing session bersama para alumni, mengikuti beberapa baperan projet serta mengadakan pameran project provoks (P3), mini bootcamp dengan beberapa path seperti web, mobile dan lainnya."
+
+  utter_join_provoks:
+  - text: "Rekrutmen anggota akan diadakan saat setiap musim maba, nantikan informasinya di instagram @provoks_ub. Syarat bergabung yaitu pastikan anda mahasiswa program studi D3 teknologi informasi fakultas vokasi universitas brawijaya dan nantinya akan ada seleksi. Seleksi dilakukan dengan cara mengerjakan tes asesmen selama satu hari berdasarkan silabus yang telah kami berikan sebelum asesmen dilakukan. Bagi temen-temen yang serius ingin menjadi bagian aktif dari Provoks bisa mempelajari silabus yang telah kami kirimkan untuk bekal pengerjaan asesmen. Silabus terdiri dari Programming Fundamentals Study Guide such as Basic Programming Concepts, Programming Logic, Program Structure, Data Organization, Program Development, Program Design, Binary and Computer Basics. Format asesmen periode sebelumnya yaitu berisikan 25 soal pertanyaan pilihan ganda dengan ketentuan pengerjaan asesmen yaitu deadline hanya 1 (satu) hari mulai dari jam 00.00-23.59, durasi pengerjaan maksimal 30 menit, dan ketika mengakses link asesmen maka waktu otomatis berhitung mundur.
+         
+          Seleksi ini membantu kita untuk fokus menjaring teman-teman mahasiswa yang memang memiliki jiwa ingin belajar yang besar serta berkembang dan meningkatkan skill di bidang IT. Bidang atau path yang kami sediakan untuk saat ini ada 3 yaitu web, mobile, dan IoT. Selain itu tujuan seleksi untuk memilah dan membuktikan mahasiswa aktif yang memiliki keseriusan/komitmen, tanggung jawab, dan integritas selama menjadi anggota Provoks selama 1 periode kedepan. Mengetahui seberapa besar minat mereka untuk belajar, berusaha, dan berkembang dan seberapa banyak mahasiswa yang mau bertumbuh dari awal sampai akhir dalam pengerjaan project."
+
+  utter_path_provoks:
+  - text: "Di komunitas Provoks terdapat beberapa bidang atau path yang tersedia untuk membantu dirimu berkembang di bidang teknologi. Bidang atau path tersebut terdiri dari web development, mobile, dan IoT. Setiap bidang atau path dilengkapi dengan mentor untuk membantu dirimu terus berkembang. Kamu bisa bebas memilih beberapa bidang atau path sesuai minat dan passion yang kamu miliki."
+
+  utter_contact_provoks:
+  - text: "Anda bisa mencari tahu informasi tentang komunitas Provoks melalui website https://provoks-web-profile.vercel.app/, media sosial Instagram @provoks_ub, dan LinkedIn komunitas yaitu Provoks Community."
+
+  utter_dosen_provoks:
+  - text: "Berikut ini beberapa dosen program studi D3 Teknologi Informasi Fakultas Vokasi Universitas Brawijaya yang berkompeten di bidang teknologi serta berperan membantu dalam berbagai kegiatan yang terlibat dalam komunitas Provoks diantaranya yaitu:
+      
+      - Rachmad Andri Atmoko, S.ST, M.T, MCF.
+
+      - Hafrida Rahmah, S.T., M.MT.  
+      
+      - Muhammad Izzun Ni`am, S.Kom., M.Eng.  
+      
+      - Dwi Utari Surya, S.T., M.T."
+
+  utter_lokasi_provoks:
+  - text: "Lokasi tempat komunitas Provoks berada pada Laboratorium Teknologi Informasi Fakultas Vokasi Universitas Brawijaya Kampus 2 Dieng."
+
+  utter_pengurus_provoks:
+  - text: "Dalam komunitas Provoks banyak pengurus yang bertanggung jawab atas berbagai kegiatan, pengurus terdiri dari dua kategori yaitu inti dan divisi. Berikut ini struktur komunitas Provoks:
+
+      Penanggung jawab inti komunitas Provoks
+      
+      Ketua Umum
+      
+      - Faiz Henri Kurniawan
+
+      Wakil Ketua Umum
+      
+      - Razaqa albio kasyfi
+
+      Sekretaris
+      
+      - Andreika Luna Alghivari
+      
+      - Najwa Firdaus Azkiyah 
+
+      Bendahara 
+      
+      - Muhammad Kadavi
+      
+      - Salsabila Arum
+      
+      - Callysta
+
+      Penanggung jawab inti setiap divisi komunitas Provoks
+
+      Divisi Web
+      
+      - Candra Wahyu
+      
+      - Muhammad Shirojul Munir
+
+      Divisi Mobile
+      
+      - Muhammad Hafizh Alfurqon
+      
+      - Rafif Nabiha
+
+      Divisi IoT
+      
+      - Anas Khalif Muttaqi
+      
+      - Alphareno Yanuar
+
+      Divisi multimedia dan acara
+      
+      - Ardian Wahyu Nizar
+      
+      - Agus Faturrahman Rifai
+      
+      - Sabilah Mudrikah
+      
+      - Muhammad Wildan Azzuhali
+      
+      - Bilal Al Ihsan"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+
